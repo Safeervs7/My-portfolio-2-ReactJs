@@ -1,0 +1,63 @@
+.icon-bar, .arrow-button{
+    background: #ffffff;
+}
+.glyphicon{
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0!important;
+}
+nav ul.nav{
+    margin: 0px;
+}
+.menu-list a{
+    padding: 0px 0px;
+    border: 1px solid #5f0001;
+    border-radius: 10px;
+    width: 115px;
+    text-align: center;
+    color:#5f0001;
+    font-weight: lighter;
+    background-color:#ffffff;
+    font-family: 'Gugi', cursive, 'Helvetica Neue',Helvetica,Arial;
+}
+.menu-list a:hover{
+    background-color:  #d6f5f4!important;
+    font-weight: bold;
+}
+.menu-list a:focus{
+    background-color:  #ffffff!important;
+}
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top:12px;
+}
+.menu-list.active a{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    color:#ffffff;
+    background: #54a9a8!important
+}
+#navBarButton{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+@media only screen and (max-width: 768px)  {
+    ul, ul li, ul li a{
+        width: 100%!important;
+    }
+    #navBarButton{
+        display: none;
+    }
+    .navbar-nav>li>a {
+        margin-top:auto;
+    }
+}

@@ -1,0 +1,31 @@
+.my-resume{
+    text-align: center;
+}
+.border-style{
+    padding: 16px;
+    border: 1px #e8e8e8 solid;
+    border-radius: 12px;
+    width: 100%;
+    display: inline-block;
+    opacity: 1;
+    animation: fadeIn 1s linear
+}
+.download-btn{
+    margin-top: 15px;
+}
+.loading-btn{
+    background-color: #f5f956fa!important;
+}
+.loading-btn:focus{
+    background-color: #f5f956fa!important;
+}
+.error-btn{
+    background-color: #F75340!important;
+}
+.error-btn:focus{
+    background-color: #F75340!important;
+}
+@keyframes fadeIn{
+    0% {opacity: 0}
+    100% {opacity: 1}
+}

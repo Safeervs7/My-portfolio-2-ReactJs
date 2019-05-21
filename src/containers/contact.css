@@ -1,0 +1,20 @@
+.fadeIn-gmail{
+    opacity: 1;
+    animation: gmail .5s linear;
+}
+.fadeIn-skype{
+    opacity: 1;
+    animation: skype .5s linear;
+}
+@keyframes gmail{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes skype{
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}

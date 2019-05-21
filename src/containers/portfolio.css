@@ -1,0 +1,41 @@
+.card0{
+    opacity: 1;
+    animation: card0 1s linear;
+}
+@keyframes card0{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
+.card1{
+    opacity: 1;
+    animation: card1 1s linear;
+}
+@keyframes card1{
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 1;}
+}
+.card2{
+    opacity: 1;
+    animation: card2 1s linear;
+}
+@keyframes card2{
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 1;}
+    100% {opacity: 1;}
+}
+.card3{
+    opacity: 1;
+    animation: card3 1s linear;
+}
+@keyframes card3{
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
+}

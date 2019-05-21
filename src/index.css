@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Poiret One', cursive,-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #479e9d;
+  color: #5f0001;
+}
+p, h4, h5{
+  font-family:  'Poiret One', cursive;
+  letter-spacing: 0.1em;
+}
+h4{
+  font-size: 3em;
+  font-weight: bold;
+}
+h5{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* .btn-link{
+  border: 1px solid #5f0001;
+  border-radius: 10px;
+  background-color:#ffffff!important;
+}
+.btn-link:hover{
+  background-color:  #d6f5f4!important;
+  font-weight: bold;
+}
+.btn-link:focus{
+  background-color:  #ffffff!important;
+} */

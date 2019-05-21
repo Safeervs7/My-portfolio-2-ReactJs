@@ -1,0 +1,43 @@
+.center-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    width: 100%;
+    margin: auto;
+}
+.center-name h1{
+    text-transform: uppercase;
+    font-family: 'Gugi', cursive, 'Helvetica Neue',Helvetica,Arial;
+    font-size: 6em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    box-sizing: border-box;
+    color: #ffffff;
+    transition: 'font-size 2s linear',
+}
+.center-name h1:after {
+    content: "";
+    display: block;
+    width: 0.75em;
+    height: 0.125em;
+    margin: 0.3em auto 0.35em auto;
+    background: #ffffff;
+    /* #f3eeb5; */
+}
+.center-name h4{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    box-sizing: border-box;
+    margin: 0 auto!important;
+}
+@media only screen and (max-width: 482px){
+    .center-name h1{
+        font-size: 4em;
+    }
+    .center-name h4{
+        font-size: 1em;
+    }
+}

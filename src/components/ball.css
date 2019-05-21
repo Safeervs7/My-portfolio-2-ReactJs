@@ -1,0 +1,53 @@
+  .demo1{
+    /* transform: rotate(0deg);
+    transition: transform 2s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px; */
+  }
+  .demo1-ball {
+    border-radius: 99px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #ffffff;
+    position: absolute;
+    background-size: 50px;
+    transform: translate3d(0, 0, 0);
+    transition: transform .7s;
+  }
+  .ball-0 {
+    background-image: url('../assets/0.png');
+  }
+  .ball-1 {
+    background-image: url('../assets/1.png');
+  }
+  .ball-2 {
+    background-image: url('../assets/2.png');
+  }
+  .ball-3 {
+    background-image: url('../assets/3.png');
+  }
+  .ball-4 {
+    background-image: url('../assets/4.png');
+  }
+  .ball-5 {
+    background-image: url('../assets/5.png');
+  }
+  .ball-6 {
+    background-image: url('../assets/6.png');
+  }
+  .ball-7 {
+    background-image: url('../assets/7.png');
+  }
+  @media only screen and (max-width: 412px)  {
+    .demo1-ball {
+      width: 35px;
+      height: 35px;
+      background-size: 35px;
+    }
+}

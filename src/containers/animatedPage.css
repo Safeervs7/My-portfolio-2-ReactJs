@@ -1,0 +1,80 @@
+.circle {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    height: 98px;
+    width: 98px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; 
+    background: #aacac9;
+    transition: left .3s;
+}
+.progess-circle{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #479e9d;
+}
+.top-right{
+    border-radius: 90px 0 0 0;
+    opacity: 0;
+    transition: opacity .3s;
+    animation: top-right .3s linear;
+    transition: left .3s;
+}
+.top-left{
+    border-radius: 0 90px 0 0;
+    opacity: 0;
+    transition: opacity .3s;
+    animation: top-left .3s linear;
+    transition: left .3s;
+}
+.bottom-right{
+    border-radius: 0 0 90px 0;
+    opacity: 0;
+    transition: opacity .3s;
+    animation: bottom-right .3s linear;
+    transition: left .3s;
+}
+.bottom-left{
+    border-radius: 0 0 0 90px;
+    opacity: 0;
+    transition: opacity .3s;
+    animation: bottom-left .3s linear;
+    transition: left .3s;
+}
+
+
+@keyframes top-right {
+    25% { opacity: 1 }
+    50% {opacity: 1 }
+    75% {opacity: 1 }
+    100% { opacity: 1}
+}
+@keyframes top-left {
+    25% { opacity: 0}
+    50% { opacity: 1 }
+    75% { opacity: 1 }
+    100% { opacity: 1 }
+}
+@keyframes bottom-right {
+    25% { opacity: 0}
+    50% { opacity: 0}
+    75% { opacity: 1 }
+    100% { opacity: 1 }
+}
+@keyframes bottom-left {
+    25% { opacity: 0}
+    50% { opacity: 0}
+    75% { opacity: 0}
+    100% { opacity: 1  }
+}
+
+
+
+  
+

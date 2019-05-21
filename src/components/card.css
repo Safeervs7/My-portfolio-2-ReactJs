@@ -1,0 +1,73 @@
+.card{
+    background-color: #479e9d;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+}
+.card-wrap{
+    padding: 3px 3px;
+}
+.card-text{
+    font-size: 1em;
+}
+.card-title{
+    color:#ffffff;
+}
+.card-text a{
+    padding: 0px 0px;
+    border: 1px solid #5f0001;
+    border-radius: 10px;
+    width: 115px;
+    text-align: center;
+    color:#5f0001;
+    font-weight: lighter;
+    background-color:#ffffff;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.card-text a:hover{
+    background-color:  #d6f5f4!important;
+    font-weight: bold;
+}
+.card-text a:focus{
+    background-color:  #ffffff!important;
+    font-weight: bold;
+}
+.card-text-block{
+    padding: 4px 4px;
+    background-color:#ffffff;
+    border: 1px solid #5f0001;
+    border-radius: 5px;
+    width: 100%;
+}
+.card-text-p{
+    font-size: 1.6em;
+    text-align: left;  
+    display:inline-block;
+    text-justify: inter-character;
+}
+@media only screen and (max-width: 700px){
+    .card-text-p {
+        font-size: 1.4em;
+    }
+    .card-text a{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width: 616px){
+    .card-text-p {
+        font-size: 1.2em;
+    }
+    .card-text a{
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 500px){
+    .card-text-p {
+        font-size: 1em;
+    }
+    .card-text a{
+        font-size: 0.9em;
+    }
+}

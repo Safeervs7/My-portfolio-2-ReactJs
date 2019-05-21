@@ -1,0 +1,10 @@
+.switch-wrapper {
+    position: relative;
+    background-color: black;
+    height: 110px;
+  }
+   
+  .switch-wrapper > div {
+    position: absolute;
+    /* background-color: black */
+  }

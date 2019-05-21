@@ -1,0 +1,28 @@
+.btn-resume{
+    border: 1px solid #5f0001;
+    border-radius: 10px;
+    background-color:#ffffff!important;
+    text-decoration: none!important;
+    color: #5f0001;
+    font-family: 'Gugi', cursive, 'Helvetica Neue',Helvetica,Arial;
+}
+.btn-resume:hover{
+    background-color:  #d6f5f4!important;
+    font-weight: bold;
+    color: #5f0001;
+    font-family: 'Gugi', cursive, 'Helvetica Neue',Helvetica,Arial;
+}
+.btn-resume:focus{
+    background-color:  #ffffff!important;
+    font-weight: bold;
+    color: #5f0001!important;
+    font-family: 'Gugi', cursive, 'Helvetica Neue',Helvetica,Arial;
+}
+.btn-resume a{
+    text-decoration: none!important;
+    color: #5f0001;
+    font-family: 'Gugi', cursive, 'Helvetica Neue',Helvetica,Arial;
+}
+.btn-resume a:focus{
+    background-color:  #ffffff!important;
+}
